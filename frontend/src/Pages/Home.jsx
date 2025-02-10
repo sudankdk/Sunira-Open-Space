@@ -1,3 +1,4 @@
+import Chooseus from "../Component/Chooseus";
 import { Hero } from "../Component/Hero";
 import Navbar from "../Component/Navbar";
 import Services from "../Component/Services";
@@ -10,6 +11,7 @@ const Home = () => {
       <Whatsapp />
       <Hero />
       <Services />
+      <Chooseus />
     </>
   );
 };
